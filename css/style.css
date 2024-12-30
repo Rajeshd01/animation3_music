@@ -1,0 +1,162 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: aliceblue;
+}
+
+.bar {
+  width: 25px;
+  height: 280px;
+  border: 2px solid black;
+  display: inline-block;
+  margin-left: 10px;
+  animation: bounce 1s infinite ease-in-out;
+  background-color: orangered;
+}
+
+.music {
+  position: fixed;
+  bottom: 400px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  margin-left: 60px;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+}
+
+#B9 {
+  visibility: hidden;
+}
+#B1 {
+  animation-delay: 0.2s;
+}
+
+#B2 {
+  animation-delay: 0.4s;
+}
+
+#B3 {
+  animation-delay: 0.1s;
+}
+
+#B4 {
+  animation-delay: 0.3s;
+}
+
+#B5 {
+  animation-delay: 0.2s;
+}
+
+#B6 {
+  animation-delay: 0.5s;
+}
+#B7 {
+  animation-delay: 0.3s;
+}
+#B8 {
+  animation-delay: 0.1s;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    height: -20px;
+  }
+  50% {
+    height: 70px;
+  }
+}
+/* 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9f9f9;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.music {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+}
+
+.bar {
+  width: 25px;
+  height: 280px;
+  border: 2px solid black;
+  display: inline-block;
+  margin: 0 5px;
+  animation: bounce 1s infinite ease-in-out;
+  background-color: orangered;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 24px;
+  color: black;
+}
+
+#B9 {
+  visibility: hidden;
+}
+
+#B1 {
+  animation-delay: 0.2s;
+}
+
+#B2 {
+  animation-delay: 0.4s;
+}
+
+#B3 {
+  animation-delay: 0.1s;
+}
+
+#B4 {
+  animation-delay: 0.3s;
+}
+
+#B5 {
+  animation-delay: 0.2s;
+}
+
+#B6 {
+  animation-delay: 0.5s;
+}
+
+#B7 {
+  animation-delay: 0.3s;
+}
+
+#B8 {
+  animation-delay: 0.1s;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    height: 20px;
+  }
+  50% {
+    height: 70px;
+  }
+} */
